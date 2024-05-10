@@ -1,2 +1,53 @@
-# eslint-config-kscode
- Configuração ESLint Padrão KSCode
+# KSCode ESLint config
+
+## Whats included?
+
+- Standard config base;
+- React plugin;
+- React Hooks plugin;
+- JSX a11y plugin;
+- Prettier;
+
+## Setup
+
+### React (with Next.js)
+
+Install dependencies:
+```
+npm i -D eslint @kscode/eslint-config
+```
+Inside `.eslintrc.json`
+```
+{
+  "extends": [
+    "@kscode/eslint-config/next", 
+    "next/core-web-vitals"
+  ]
+}
+```
+
+### React (without Next.js)
+
+Install dependencies:
+```
+npm i -D eslint @kscode/eslint-config
+```
+Inside `.eslintrc.json`
+```
+{
+  "extends": "@kscode/eslint-config/react"
+}
+```
+
+### Node.js
+
+Install dependencies:
+```
+npm i -D eslint @kscode/eslint-config
+```
+Inside `.eslintrc.json`
+```
+{
+  "extends": "@kscode/eslint-config/node"
+}
+```
