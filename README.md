@@ -14,7 +14,7 @@
 
 Install dependencies:
 ```
-yarn i -D eslint @kscode/eslint-config
+yarn add -D eslint @kscode/eslint-config
 ```
 Inside `.eslintrc.json`
 ```
@@ -30,7 +30,7 @@ Inside `.eslintrc.json`
 
 Install dependencies:
 ```
-yarn i -D eslint @kscode/eslint-config
+yarn add -D eslint @kscode/eslint-config
 ```
 Inside `.eslintrc.json`
 ```
@@ -43,7 +43,7 @@ Inside `.eslintrc.json`
 
 Install dependencies:
 ```
-yarn i -D eslint @kscode/eslint-config
+yarn add -D eslint @kscode/eslint-config
 ```
 Inside `.eslintrc.json`
 ```
